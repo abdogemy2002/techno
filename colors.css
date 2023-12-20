@@ -1,0 +1,22 @@
+#all_colore{
+   color:#1CDAFF; /*blueish*/
+   color:#00FCA8; /*greenish */
+   color:#FFA500 ; /*(Orange)*/
+   color:#292929 ; /* (dark gray)      for words*/
+ 
+   background-color: #bdf1fb; /*(light blue)  main background color    */
+   background-color: #00000012; /*(light gray)  navbar background color    */
+ 
+   background: #ff523b; /*(red)  for buttons*/
+   background: #563434; /*(dark red)  for buttons hover*/
+ 
+ /* extra colors */
+   color:#FF69B4 ; /*(Pink)     */
+   color:#FFFF00;  /*(Yellow)  */
+   color:#9ACD32 ;  /*(Lime Green)      */
+   color:#FFD700 ;  /*(Gold Yellow)      */
+    /* #FFFFFF (White)
+#FFD700 (Gold Yellow)
+#FFA07A (Light Salmon)
+#6A5ACD (Slate Blue) */
+}
