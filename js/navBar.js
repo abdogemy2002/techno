@@ -10,9 +10,11 @@ function menutoggle(){
     }
 }
 
+
+    
 window.addEventListener("scroll", function () {
-    var icon = document.getElementById("medhat");
-    if (window.pageYOffset > 50) {
+    var icon = document.getElementById("scrollToTopButton");
+    if (window.pageYOffset > 500) {
       icon.style.display = "block";
     } else {
       icon.style.display = "none";
