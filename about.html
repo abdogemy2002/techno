@@ -1,146 +1,141 @@
-<html lang="en">
- <head>
+<!DOCTYPE html>
+<html>
+    
+    <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width-device-width, initial-scale=1.0">
         <!-- <title>Techno | Ecommerce website</title> -->
-        <title>Techno Stores</title>
+        <title>contacts</title>
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
         <!--added a cdn link by searching font awesome4 cdn and getting this link from https://www.bootstrapcdn.com/fontawesome/ this url*/-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="icon" href="images/logo_clear_icon.png" type="image/x-icon">
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <link rel="stylesheet" href="about.css">
     </head>
-
-
-
-<body>
-    <div class ="header">
-        <div class="container">
-            <div class="navbar">
-                <div class="logo">
-                    <a href="index.html"><img src="images/logo.png" ></a>
+    <body>
+        <!-- <div class ="header"> -->
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <a href="index.html"><img src="images/logo.png" ></a>
+                    </div>
+                    <nav>
+                        <ul id="MenuItems">
+                            <li><a href="index.html">Home</a></li>
+                             <li><a href="products.html">Products</a></li>
+                             <li><a href="about.html">About</a></li>
+                             <li><a href="contacts.html">Contact</a></li>
+                             <li><a href="account.html">Account</a></li>
+    
+                        </ul>
+                    </nav>
+                    <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+                    <img src="images/menu.png" class="menu-icon" onClick="menutoggle()" >
                 </div>
-                <nav>
-                    <ul id="MenuItems">
-                        <li><a href="index.html">Home</a></li>
-                         <li><a href="products.html">Products</a></li>
-                         <li><a href="">About</a></li>
-                         <li><a href="">Contact</a></li>
-                         <li><a href="account.html">Account</a></li>
-
-                    </ul>
-                </nav>
-                <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
-                <img src="images/menu.png" class="menu-icon" onClick="menutoggle()" >
             </div>
-
-    <div class="about-section">
-        <div class="inner-container">
-            <h1>About Us</h1>
-            <p class="text">
-               At Techno, we're your go-to destination for cutting-edge tech solutions. Our online platform offers a diverse range of smartphones featuring various brands and bands, ensuring you find the perfect fit for your communication needs. Alongside phones, explore our extensive collection of accessories, including headphones, AirPods, and other gadgets, elevating your tech experience.
-            </p>
-            <div class="skills">
-                <span>Web Design</span>
-                <span>Photoshop & Illustrator</span>
-                <span>Coding</span>
+        <div class="about-section">
+            <div class="inner-container">
+                <h1>About Us</h1>
+                <p class="text">
+                   At Techno, we're your go-to destination for cutting-edge tech solutions. Our online platform offers a diverse range of smartphones featuring various brands and bands, ensuring you find the perfect fit for your communication needs. Alongside phones, explore our extensive collection of accessories, including headphones, AirPods, and other gadgets, elevating your tech experience.
+                </p>
+                <div class="skills">
+                   
+                </div>
             </div>
         </div>
-    </div>
-    <div class="wrapper">
-        <h1>Our Services</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-             Esse amet illo eos eligendi nobis nam aspernatur 
-             placeat.</p>
-             <div class="content-box">
-                <div class="card">
-                  <img src="truck-solid-108.png" >
-                    <h2>Swift Delivery</h2>
-                  <p>Get quick and hassle-free shipping for your mobile devices at Techno. </p>
-
-                </div>
-                <div class="card">
-                    <img src="face-solid-108.png" >
-                    <h2>24/7 Tech Support</h2>
-                   <p>Access round-the-clock assistance for any device issues with Techno's dedicated support team.</p>
-                         
-                </div>
-                <div class="card">
-                    
-                    <img src="offer-solid-108.png" >
-                    <h2>Promotion</h2>
-                <p>Discover amazing deals and promotions that make shopping at Techno an exciting experience.</p>
-                </div>
-
-               <div class="card">
-                    <img src="lock-alt-solid-108.png">
-                    <h2>Secure Online Payments</h2>
-                    <p>Ensuring safe and secure online payment options , providing peace of mind for your transactions.</p>
-                         
-                </div>
-
-                <div class="card">
-                    <img src="transfer-regular-108.png">
-                    <h2>shipping and easy returns</h2>
-                    <p> Enjoy hassle-free delivery and smooth returns at Techno for your tech purchases</p>
-                         
-                </div>
-
-                <div class="card">
-                    <img src="wrench-solid-108.png">
-                    <h2>Product Repair Service</h2>
-                    <p> Trust Techno's experts to fix your tech products reliably and restore their functionality.</p>
-                </div>
-             </div>
-             
-             <div class ="footer">
-                <div class="container">
-                    
-                    <div class="row">
-                        <div class="footer-col-1">
-                            <h3>Download Our App</h3>
-                            <p>Download App for Android and ios mobile phone.</p>
-                            <div class="app-logo">
-                                <img src="images/play-store.png" alt="">
-                                <img src="images/app-store.png" alt="">
-                            </div>
-                        </div>
-                        <div class="footer-col-2">
-                            <img src="images/logo2.png">
-                            <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
-                        </div>
-                        <div class="footer-col-3">
-                            <h3>Useful Links</h3>
-                           <ul>
-                               <li>Coupons</li>
-                               <li>Blog Post</li>
-                               <li>Return Policy</li>
-                               <li>Join Affiliate</li>
-                            </ul>
-                        </div>
-                        <div class="footer-col-4">
-                            <h3>Follow us</h3>
-                           <ul>
-                               <li>Facebook</li>
-                               <li>Twitter</li>
-                               <li>Instagram</li>
-                               <li>Youtube</li>
-                            </ul>
-                        </div>
-                        
-                    </div>
-                    
-                    <hr>
-                    <p class="copyright">Copyright 2023 - Top Secret Team
-                    </p>
-                    
-                </div>
-             </div>
-            </div>
-             
+        <div class="wrapper">
+            <h1 class="title2">Our Services</h1>
+           
+                 <div class="content-box">
+                    <div class="card">
+                      <img src="icons/truck-solid-108.png" >
+                        <h2>Swift Delivery</h2>
+                      <p>Get quick and hassle-free shipping for your mobile devices at Techno. </p>
     
-</body>
+                    </div>
+                    <div class="card">
+                        <img src="icons/face-solid-108.png" >
+                        <h2>24/7 Tech Support</h2>
+                       <p>Access round-the-clock assistance for any device issues with Techno's dedicated support team.</p>
+                             
+                    </div>
+                    <div class="card">
+                        
+                        <img src="icons/offer-solid-108.png" >
+                        <h2>Promotion</h2>
+                    <p>Discover amazing deals and promotions that make shopping at Techno an exciting experience.</p>
+                    </div>
+    
+                   <div class="card">
+                        <img src="icons/lock-alt-solid-108.png">
+                        <h2>Secure Online Payments</h2>
+                        <p>Ensuring safe and secure online payment options , providing peace of mind for your transactions.</p>
+                             
+                    </div>
+    
+                    <div class="card">
+                        <img src="icons/transfer-regular-108.png">
+                        <h2>shipping and easy returns</h2>
+                        <p> Enjoy hassle-free delivery and smooth returns at Techno for your tech purchases</p>
+                             
+                    </div>
+    
+                    <div class="card">
+                        <img src="icons/wrench-solid-108.png">
+                        <h2>Product Repair Service</h2>
+                        <p> Trust Techno's experts to fix your tech products reliably and restore their functionality.</p>
+                    </div>
+                 </div>
+                 </div>
+        <!----------------------------------footer------------------------------------->
+        <div class ="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo2.png">
+                    <p>At Techno, our goal is to offer top-quality smartphones, accessories like headphones and AirPods, along with exceptional service and the latest technology.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                   <ul>
+                       <li>Coupons</li>
+                       <li>Blog Post</li>
+                       <li>Return Policy</li>
+                       <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                   <ul>
+                       <li>Facebook</li>
+                       <li>Twitter</li>
+                       <li>Instagram</li>
+                       <li>Youtube</li>
+                    </ul>
+                </div>
+                
+            </div>
+            
+            <hr><!--horizontal line-->
+            <p class="copyright">Copyright 2023 - Top Secret Team
+            </p>
+            
+        </div>
+    </div>
+        
+     <script src="js/about.js"></script>   
+    <script src="js/navBar.js"></script>
+
+    </body>
 </html>
